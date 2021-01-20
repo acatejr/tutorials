@@ -1,4 +1,6 @@
 <script>
+	import Modal from './Modal.svelte'
+
 	// Test data
 	let people = [
 		{ name: 'yoshi', beltColour: 'black', age: 25, id: 1},
@@ -13,10 +15,15 @@
 
 </script>
 
+<Modal />
+
 <main>
 	{#each people as person (person.id)}
 		<div>
 			<h4>{person.name}</h4>
+			{#if person.beltColour === 'black'}
+				<p><strong>Master Ninja</strong></p>
+			{/if}
 			<p>{person.age} years old, {person.beltColour} belt.</p>
 			<button on:click={() => handleClick(person.id)}>Delete</button>
 		</div>

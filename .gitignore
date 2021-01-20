@@ -2,7 +2,7 @@
 *.tmp
 *.bak
 .env
-
+svelte/tutorial.for.beginners/public/build/
 node_modules/
 public/build/
 **/build/
