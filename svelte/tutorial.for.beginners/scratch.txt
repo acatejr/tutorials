@@ -1,0 +1,249 @@
+<hr />
+
+<p>Course: Silverbell</p>
+<p>Fee Per Player: $5</p>
+
+<table>
+    <caption>Scores</caption>	
+    <thead>
+        
+    
+    <tr>
+        <th>Player</th>
+        <th>Handicap</th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>7</th>
+        <th>8</th>
+        <th>9</th>
+        <th>In</th>
+        <th>10</th>
+        <th>11</th>
+        <th>12</th>
+        <th>13</th>
+        <th>14</th>
+        <th>15</th>
+        <th>16</th>
+        <th>17</th>
+        <th>18</th>
+        <th>Out</th>
+        <th>Total</th>
+    </tr>
+    <tr>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+        <th>4</th>
+        <th>7</th>
+        <th>10</th>
+        <th>2</th>
+        <th>5</th>
+        <th>1</th>
+        <th>9</th>
+        <th>15</th>
+        <th>3</th>
+        <th>&nbsp;</th>
+        <th>6</th>
+        <th>8</th>
+        <th>12</th>
+        <th>11</th>
+        <th>13</th>
+        <th>18</th>
+        <th>14</th>
+        <th>16</th>
+        <th>17</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><input type='text' value='John'></td>
+        <td><input type='text' class='score' value=9></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+    </tr>
+    <tr>
+        <td><input type='text' value='Steve'></td>
+        <td><input type='text' class='score' value='19'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+    </tr>
+    <tr>
+        <td><input type='text' value='Dave'></td>
+        <td><input type='text' class='score' value='-2'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+    </tr>
+    <tr>
+        <td><input type='text' value='Paul'></td>
+        <td><input type='text' class='score' value=18></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+    </tr>
+    <tr>
+        <td><input type='text' value='Lee'></td>
+        <td><input type='text' class='score' value=15></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+    </tr>
+    <tr>
+        <td><input type='text' value='Jack'></td>
+        <td><input type='text' class='score' value='22'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+        <td><input type='text' class='score'></td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td>
+            <button>Compute Skins</button>
+            <br />
+            <button>Gen Random Data</button>
+        </td>
+    </tr>
+    </tfoot>
+</table>
+
+<table>
+    <caption>Results</caption>
+    <thead>
+        <tr>
+            <th>Player</th>
+            <th>Hole</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>	
+        <tr>
+            <td>Dave</td>
+            <td>3</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Paul</td>
+            <td>3</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Jack</td>
+            <td>3</td>
+            <td>10</td>
+        </tr>
+    </tbody>
+</table>
