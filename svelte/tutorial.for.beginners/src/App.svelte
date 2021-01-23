@@ -1,6 +1,8 @@
 <script>
 	import Modal from './Modal.svelte'
 
+	let showModal = false
+
 	// Test data
 	let people = [
 		{ name: 'yoshi', beltColour: 'black', age: 25, id: 1},
@@ -13,11 +15,17 @@
 		people = people.filter((person) => person.id !== id)
 	}
 
+	const toggleModal = () => {
+		showModal = !showModal
+	}
+
 </script>
 
-<Modal />
+<!-- When prop and variable name are the same can use the shorthand like used here for showModal. -->
+<Modal message="Hey, I am a prop value" {showModal} on:click={toggleModal} />
 
 <main>
+	<button on:click={toggleModal}>Open Modal</button>
 	{#each people as person (person.id)}
 		<div>
 			<h4>{person.name}</h4>
@@ -40,20 +48,10 @@
 		margin: 0 auto;
 	}
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
 	@media (min-width: 640px) {
 		main {
 			max-width: none;
 		}
 	}
 
-	.score {
-		width: 35px;
-	}
 </style>

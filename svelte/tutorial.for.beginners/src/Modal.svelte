@@ -1,12 +1,14 @@
 <script>
-    let showModal = true
-    let isPromo = false
+    export let showModal = false
+    export let message = "Default value."
+    export let isPromo = false
 </script>
 
 {#if showModal}
-<div class='backdrop' class:promo={isPromo}>
+<!-- event forwarding by registering event, but not setting it equal to anything. -->
+<div class='backdrop' class:promo={isPromo} on:click>
     <div class='modal'>
-        <p>Sign up for offers!</p>
+        <p>{message}</p>
     </div>
 </div>
 {/if}
