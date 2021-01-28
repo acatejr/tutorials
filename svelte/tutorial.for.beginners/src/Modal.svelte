@@ -1,14 +1,15 @@
 <script>
     export let showModal = false
-    export let message = "Default value."
+    // export let message = "Default value."
     export let isPromo = false
 </script>
 
 {#if showModal}
 <!-- event forwarding by registering event, but not setting it equal to anything. -->
-<div class='backdrop' class:promo={isPromo} on:click>
+<!-- |self is the event modifier.  It is a type of event modifier.  There are others. -->
+<div class='backdrop' class:promo={isPromo} on:click|self>
     <div class='modal'>
-        <p>{message}</p>
+        <slot></slot>
     </div>
 </div>
 {/if}

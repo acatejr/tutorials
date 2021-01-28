@@ -1,5 +1,8 @@
 <script>
+	import { } from 'os'
+	import { text } from 'svelte/internal'
 	import Modal from './Modal.svelte'
+	import AddPersonForm from './AddPersonForm.svelte'
 
 	let showModal = false
 
@@ -22,10 +25,14 @@
 </script>
 
 <!-- When prop and variable name are the same can use the shorthand like used here for showModal. -->
-<Modal message="Hey, I am a prop value" {showModal} on:click={toggleModal} />
+<!-- slots: method for passing child content into component.  -->
+<Modal {showModal} on:click={toggleModal}>
+	<AddPersonForm />
+</Modal>
 
 <main>
-	<button on:click={toggleModal}>Open Modal</button>
+	<!-- using |once event modifier here. -->
+	<button on:click|once={toggleModal}>Open Modal</button>
 	{#each people as person (person.id)}
 		<div>
 			<h4>{person.name}</h4>
