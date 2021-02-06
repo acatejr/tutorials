@@ -22,12 +22,18 @@
 		showModal = !showModal
 	}
 
+	const addPerson = (e) => {
+		const person = e.detail
+		people = [person, ...people]
+		showModal = false
+	}
+
 </script>
 
 <!-- When prop and variable name are the same can use the shorthand like used here for showModal. -->
 <!-- slots: method for passing child content into component.  -->
 <Modal {showModal} on:click={toggleModal}>
-	<AddPersonForm />
+	<AddPersonForm on:addPerson={addPerson} />
 </Modal>
 
 <main>
